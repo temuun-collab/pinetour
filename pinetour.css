@@ -5,15 +5,11 @@
 }
 .all-gaps:hover {
   background-color: black;
-  opacity: 40%;
+
   border-radius: 10%;
 }
 .background2:hover {
   border: 4px white solid;
-}
-
-.background2:hover .gap-photo:hover {
-  display: block;
 }
 .background3:hover {
   border: 4px white solid;
@@ -26,6 +22,21 @@
 }
 .background6:hover {
   border: 4px white solid;
+}
+.background2:hover .gap-photo1 {
+  opacity: 100%;
+}
+.background3:hover .gap-photo5 {
+  opacity: 100%;
+}
+.background4:hover .gap-photo4 {
+  opacity: 100%;
+}
+.background5:hover .gap-photo2 {
+  opacity: 100%;
+}
+.background6:hover .gap-photo3 {
+  opacity: 100%;
 }
 .select-button:hover {
   opacity: 70%;
@@ -195,6 +206,7 @@
   padding-top: 30px;
   flex-direction: column;
 }
+
 .background5 {
   width: 513px;
   height: 112px;
@@ -258,33 +270,38 @@
   width: 369px;
   height: 369px;
   position: absolute;
+  opacity: 100%;
 }
 .gap-photo1 {
   display: flex;
   position: absolute;
   margin-left: 1300px;
   margin-top: 100px;
-  opacity: 100%;
+  opacity: 0%;
 }
 .gap-photo2 {
   display: flex;
   position: absolute;
   margin-left: 500px;
+  opacity: 0%;
 }
 .gap-photo3 {
   display: flex;
   position: absolute;
   margin-left: 800px;
+  opacity: 0%;
 }
 .gap-photo4 {
   display: flex;
   position: absolute;
   margin-left: 900px;
+  opacity: 0%;
 }
 .gap-photo5 {
   display: flex;
   position: absolute;
   margin-left: 1100px;
+  opacity: 0%;
 }
 .hero3 {
   width: 100%;
